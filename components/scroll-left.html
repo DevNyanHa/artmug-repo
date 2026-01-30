@@ -1,0 +1,62 @@
+<div class="main-left">
+  <div class="deco"></div>
+  <div class="scroll-left">
+    <div class="scroll-left-inner">
+      <span>PREMIUM  WEB  COMMISSION</span>
+      <span>PREMIUM  WEB  COMMISSION</span>
+      <span>ARTMUG  NYANHA</span>
+      <span>PREMIUM  WEB  COMMISSION</span>
+      <span>PREMIUM  WEB  COMMISSION</span>
+      <span>ARTMUG  NYANHA</span>
+      <span>PREMIUM  WEB  COMMISSION</span>
+      <span>PREMIUM  WEB  COMMISSION</span>
+      <span>ARTMUG  NYANHA</span>
+    </div>
+  </div>
+  <div class="deco"></div>
+</div>
+
+<style>
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+.deco {
+  background: #0a0a0a;
+  width: 100%;
+  height: 2px;
+  margin: 2px 0;
+}
+
+.main-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.scroll-left {
+  overflow: hidden;
+  width: 100%;
+  height: 37px;
+  background: #0a0a0a;
+  display: flex;
+  align-items: center;
+}
+
+.scroll-left-inner {
+  display: flex;
+  white-space: nowrap;
+  animation: scroll-left-ani 15s linear infinite;
+}
+
+.scroll-left-inner span {
+  display: inline-block;
+  margin-right: 50px;
+  color: #f0f0f0;
+  font-family: 'Pretendard';
+  font-weight: 800;
+  font-size: 30px;
+}
+
+@keyframes scroll-left-ani {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+</style>
